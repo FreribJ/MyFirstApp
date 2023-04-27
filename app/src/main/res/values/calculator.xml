@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number1">Erste Zahl</string>
+    <string name="number2">Zweite Zahl</string>
+    <string name="calculate">Berechne</string>
+</resources>
