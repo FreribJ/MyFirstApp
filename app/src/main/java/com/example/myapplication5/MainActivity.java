@@ -30,10 +30,16 @@ public class MainActivity extends AppCompatActivity {
             MainActivity.this.startActivity(calculatorIntent);
         });
 
-        Button navigateToNavigatorButton = findViewById(R.id.navigateToNavigator);
+        Button navigateToNavigatorButton = findViewById(R.id.navigateToNavigation);
         navigateToCalculatorButton.setOnClickListener(view -> {
-            Intent calculatorIntent = new Intent(MainActivity.this, Calculator.class);
-            MainActivity.this.startActivity(calculatorIntent);
+            Intent navigatorIntent = new Intent(MainActivity.this, NavigationActivity.class);
+            MainActivity.this.startActivity(navigatorIntent);
+        });
+
+        Button navigateToBroadcastButton = findViewById(R.id.navigateToBroadcast);
+        navigateToBroadcastButton.setOnClickListener(view -> {
+            Intent navigatorIntent = new Intent(MainActivity.this, Broadcast.class);
+            MainActivity.this.startActivity(navigatorIntent);
         });
 
     }

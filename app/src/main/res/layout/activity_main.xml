@@ -26,6 +26,18 @@
             android:layout_width="match_parent"
             android:layout_height="200px"
             android:text="Rechner" />
+
+        <Button
+            android:id="@+id/navigateToNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Navigation" />
+
+        <Button
+            android:id="@+id/navigateToBroadcast"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Broadcast" />
     </LinearLayout>
 
 
