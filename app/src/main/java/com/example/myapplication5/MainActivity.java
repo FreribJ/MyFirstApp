@@ -8,10 +8,9 @@ import android.widget.Button;
 
 import com.example.myapplication5.Calculator.Calculator;
 import com.example.myapplication5.Contacts.Contacts;
+import com.example.myapplication5.Views.ViewTestActivity;
 
 public class MainActivity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +29,16 @@ public class MainActivity extends AppCompatActivity {
             MainActivity.this.startActivity(calculatorIntent);
         });
 
-        Button navigateToNavigatorButton = findViewById(R.id.navigateToNavigator);
-        navigateToCalculatorButton.setOnClickListener(view -> {
-            Intent calculatorIntent = new Intent(MainActivity.this, Calculator.class);
+        Button navigateToViewTestButton = findViewById(R.id.navigateToViewTest);
+        navigateToViewTestButton.setOnClickListener(view -> {
+            Intent calculatorIntent = new Intent(MainActivity.this, ViewTestActivity.class);
             MainActivity.this.startActivity(calculatorIntent);
         });
 
+        Button navigateToNavigatorButton = findViewById(R.id.navigateToNavigator);
+        navigateToNavigatorButton.setOnClickListener(view -> {
+            Intent calculatorIntent = new Intent(MainActivity.this, MainFragment.class);
+            MainActivity.this.startActivity(calculatorIntent);
+        });
     }
-
-
 }

@@ -14,7 +14,7 @@
         android:id="@+id/mainFragment"
         android:name="com.example.myapplication5.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/activity_navigation" >
         <action
             android:id="@+id/action_mainFragment_to_testFragment"
             app:destination="@id/testFragment" />

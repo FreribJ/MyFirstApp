@@ -37,8 +37,7 @@
             android:id="@+id/resultFragment"
             android:name="com.example.myapplication5.Calculator.calculatorResultFragment"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/calculator_result_fragment" />
+            android:layout_height="50px" />
 
     </LinearLayout>
 
