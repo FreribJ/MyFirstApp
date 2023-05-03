@@ -6,4 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Broadcast">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Show Snackbar" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Make Notification" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
