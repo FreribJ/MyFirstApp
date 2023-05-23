@@ -46,5 +46,23 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, Broadcast.class);
             MainActivity.this.startActivity(intent);
         });
+
+        Button navigateToThreadButton = findViewById(R.id.navigateToThread);
+        navigateToThreadButton.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, ThreadActivity.class);
+            MainActivity.this.startActivity(intent);
+        });
+
+        Button navigateToRESTButton = findViewById(R.id.navigateToRest);
+        navigateToRESTButton.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
+            MainActivity.this.startActivity(intent);
+        });
+
+        Button navigateToFilesButton = findViewById(R.id.navigateToFile);
+        navigateToFilesButton.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, FileActivity.class);
+            MainActivity.this.startActivity(intent);
+        });
     }
 }

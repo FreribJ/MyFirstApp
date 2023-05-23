@@ -44,6 +44,24 @@
             android:layout_width="match_parent"
             android:layout_height="200px"
             android:text="Broadcast" />
+
+        <Button
+            android:id="@+id/navigateToThread"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Thread" />
+
+        <Button
+            android:id="@+id/navigateToRest"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Rest" />
+
+        <Button
+            android:id="@+id/navigateToFile"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="File" />
     </LinearLayout>
 
 
